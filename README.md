@@ -10,5 +10,7 @@ my rice dotfiles
 - Hyprland
 - Rofi
 - Fastfetch
-- idk
-
+- Flameshot
+- Hyprlock
+- Hyprpolkitagent
+- I will write other less important dependencies later
