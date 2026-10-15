@@ -1,5 +1,5 @@
 # barch
-b + arch btw
+b + arch btw\n
 my rice dotfiles
 
 ## Dependencies
