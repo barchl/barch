@@ -1,0 +1,2 @@
+# barch
+my rice dotfiles
