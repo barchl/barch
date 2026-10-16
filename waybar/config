@@ -1,0 +1,88 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 5,
+  "margin-right": 5,
+  "margin-left": 5,
+  "height": 32,
+  "spacing": 6,
+  
+  "modules-left": [
+    "group/control-center"
+  ],
+
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+  
+  "modules-right": [
+    "clock"
+  ],
+  
+  "custom/arch": {
+    "format": " ",
+    "tooltip": false
+  },
+
+  "group/control-center": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "control-child",
+      "click-to-reveal": true
+    },
+    "modules": [
+      "custom/arch",
+      "pulseaudio",
+      "backlight",
+      "network",
+      "tray",
+      "battery"
+    ]
+  },
+
+  "clock": {
+    "format": "  {:%H:%M}",
+    "format-alt": "{:%d/%m/%Y}"
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  {ipaddr}",
+    "format-disconnected": "󰖪  Sem conexão"
+  },
+
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "󰝟  Mudo",
+    "format-icons": {
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "",
+      ""
+    ],
+    "scroll-step": 5
+  }
+}
+

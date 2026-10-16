@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export HYPRSHOT_DIR:/home/b/Pictures/Screenshots/
+SETUVAR fish_user_paths:/\x7e/\x2elocal/opt/zen
