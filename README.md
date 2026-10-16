@@ -17,4 +17,5 @@ my rice dotfiles
 
 ## Instalation
 just copy these folders into your .config/ folder, don't delete everything from your .config, make a backup of everything before
+
 I'll probably create a script for installation in the future
